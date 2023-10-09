@@ -1,0 +1,1 @@
+# Slot-Machine harjoitus projekti.
