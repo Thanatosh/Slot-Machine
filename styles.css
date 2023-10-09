@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+}
+
+#slot-machine {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 480px;
+    border: solid;
+    background: linear-gradient(to top, rgb(198, 198, 200), rgb(110, 109, 109));
+}
+
+#image-multipliers {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 480px;
+    background: linear-gradient(to top, rgb(198, 198, 200), rgb(110, 109, 109));
+}
+
+.multiplier-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.multiplier {
+    font-size: 40px;
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    cursor: default;
+}
+
+#balance {
+    cursor: default;
+    font-size: 22px;
+}
+
+#winnings {
+    cursor: default;
+    font-size: 22px;
+}
+
+#result {
+    cursor: default;
+    font-size: 22px;
+}
+
+#reels {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#reel1, #reel2, #reel3, #reel4 {
+    border: solid;
+    box-shadow: 5px 10px rgb(94, 93, 93);
+    cursor: pointer;
+}
+
+.equals {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 5px;
+    cursor: default;
+}
+
+.equals-triple {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 65px;
+    cursor: default;
+}
+
+#help {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: default;
+}
+
+#reels img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.multiplier-image {
+    border: solid;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+#spin-button {
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgb(110, 5, 5), rgb(209, 7, 7));
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 5px 6px rgb(94, 93, 93);
+}
+
+#spin-button:hover {
+    background: linear-gradient(to top, rgb(80, 4, 4), rgb(201, 7, 7));
+    color: #ccc;
+}
+
+#balance, #winnings, #result {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.bet-button {
+    margin: 5px;
+    width: 90px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 6px rgb(94, 93, 93);
+}
+
+.bet-button:hover {
+    background-color: rgb(213, 211, 211);
+}
+
+#main-h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.bet-button.selected {
+    background: linear-gradient(to left, rgb(118, 118, 241), rgb(1, 18, 168));
+    color: white;
+}
+
+#rounds-info {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: default;
+}
+
+#money {
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: linear-gradient(to top, rgb(107, 106, 106), white);
+}

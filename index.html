@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Slot Machine</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 id="main-h1">Slot Machine</h1>
+    <div id="slot-machine">
+        <div id="reels">
+            <img src="img/Seven.png" id="reel1">
+            <img src="img/Seven.png" id="reel2">
+            <img src="img/Seven.png" id="reel3">
+            <img src="img/Seven.png" id="reel4">
+        </div>
+        <button id="spin-button">SPIN</button>
+        <p id="help">Click on reels to lock them</p>
+        <p id="rounds-info">First Spin of the round</p>
+        <div id="result">Spin to win!</div>
+        <div id="money">
+            <div id="balance">Balance: €100</div>
+            <div id="winnings">Total Winnings: €0</div>
+        </div>
+        <div id="bet">
+            <button class="bet-button selected" data-bet="1">Bet €1</button>
+            <button class="bet-button" data-bet="5">Bet €5</button>
+            <button class="bet-button" data-bet="10">Bet €10</button>
+        </div>
+    </div>
+    <div id="image-multipliers">
+        <div class="multiplier-item">
+            <img src="img/Seven.png" class="multiplier-image">
+            <img src="img/Seven.png" class="multiplier-image">
+            <img src="img/Seven.png" class="multiplier-image">
+            <img src="img/Seven.png" class="multiplier-image">
+            <span class="equals"> = </span>
+            <span class="multiplier">10x Bet</span>
+        </div>
+        <div class="multiplier-item">
+            <img src="img/Seven.png" class="multiplier-image">
+            <img src="img/Seven.png" class="multiplier-image">
+            <img src="img/Seven.png" class="multiplier-image">
+            <span class="equals-triple"> = </span>
+            <span class="multiplier">5x Bet</span>
+        </div>
+        <div class="multiplier-item">
+            <img src="img/Watermelon.png" class="multiplier-image">
+            <img src="img/Watermelon.png" class="multiplier-image">
+            <img src="img/Watermelon.png" class="multiplier-image">
+            <img src="img/Watermelon.png" class="multiplier-image">
+            <span class="equals"> = </span>
+            <span class="multiplier">6x Bet</span>
+        </div>
+        <div class="multiplier-item">
+            <img src="img/Plum.png" class="multiplier-image">
+            <img src="img/Plum.png" class="multiplier-image">
+            <img src="img/Plum.png" class="multiplier-image">
+            <img src="img/Plum.png" class="multiplier-image">
+            <span class="equals"> = </span>
+            <span class="multiplier">5x Bet</span>
+        </div>
+        <div class="multiplier-item">
+            <img src="img/Orange.png" class="multiplier-image">
+            <img src="img/Orange.png" class="multiplier-image">
+            <img src="img/Orange.png" class="multiplier-image">
+            <img src="img/Orange.png" class="multiplier-image">
+            <span class="equals"> = </span>
+            <span class="multiplier">4x Bet</span>
+        </div>
+        <div class="multiplier-item">
+            <img src="img/Cherry.png" class="multiplier-image">
+            <img src="img/Cherry.png" class="multiplier-image">
+            <img src="img/Cherry.png" class="multiplier-image">
+            <img src="img/Cherry.png" class="multiplier-image">
+            <span class="equals"> = </span>
+            <span class="multiplier">3x Bet</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
